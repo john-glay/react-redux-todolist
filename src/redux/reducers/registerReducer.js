@@ -1,4 +1,4 @@
-const initialState = [];
+const initialState = [{username: 'test1', email: '123@gmail.com', password: '123'}];
 
 const registerReducer = (state = initialState, action) => {
   switch (action.type) {
